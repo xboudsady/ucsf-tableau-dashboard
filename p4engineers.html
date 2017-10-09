@@ -53,15 +53,16 @@
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
                     <h1 class="doc-title"><span aria-hidden="true" class="fa fa-cogs"></span> Parnassus Campus Engineers</h1>
-                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: March 1st, 2017</div>
+                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: October 1st, 2017</div>
                 </div><!--//doc-header-->
                 <div class="doc-body">
                     <div class="doc-content">
                         <div class="content-inner">
 
-                            <section id="workOrder" class="doc-section"></section>
+                            <!-- Scroll to Work Order Section -->
+                            <section id="p4-workOrder" class="doc-section"></section>
 
-                            <section id="assignments" class="doc-section">
+                            <section id="p4-assignments" class="doc-section">
                                 <h2 class="section-title">Work Orders - Assignments</h2>
 
                                 <div class="section-block">
@@ -78,9 +79,8 @@
                                         </div>
                                         
                                         <div class="speech-bubble">                    
-                                            <h3 class="speech-title">Work Order Assignment</h3>
-
-                                            <p>Current Active Work Order. All Active WO not in COMP or CLOSE status.</p>
+                                            <h3 class="speech-title">Current Active WO</h3>
+                                            <p>Excludes WO Status: <strong>COMP</strong>, <strong>CLOSE</strong></p>
                                         </div>
 
                                     </div><!--//jumbotron-->
@@ -88,8 +88,8 @@
                                 
                             </section><!--//doc-section-->
 
-                            <section id="woStatus" class="doc-section">
-                                <h2 class="section-title">Work Orders - Status</h2>
+                            <section id="p4-wo30Status" class="doc-section">
+                                <h2 class="section-title">30 Days - Status</h2>
                                 <div class="section-block">
                                     <div class="jumbotron text-center">
                                         <!-- <h1>Assignments</h1> -->
@@ -106,7 +106,7 @@
                                         <div class="speech-bubble">                    
                                             <h3 class="speech-title">WO Status</h3>
 
-                                            <p>Etsy photo booth truffaut slow-carb hoodie, jianbing freegan irony. Lo-fi microdosing neutra kombucha, synth glossier tote bag lomo. XOXO green juice knausgaard pour-over tumblr.</p>
+                                            <p>Current 30 Days, Work Order Status </p>
                                         </div>
 
                                     </div><!--//jumbotron-->
@@ -114,7 +114,7 @@
             
                             </section><!--//doc-section-->
 
-                            <section id="woAge" class="doc-section">
+                            <section id="p4-woAge" class="doc-section">
                                 <h2 class="section-title">Work Orders - Age</h2>
                                 <div class="section-block">
                                     <div class="jumbotron text-center">
@@ -131,9 +131,10 @@
                                         </div>
                                         
                                         <div class="speech-bubble">                    
-                                            <h3 class="speech-title"> Work Order Age</h3>
-
-                                            <p>Tote bag pour-over scenester vinyl, umami prism vape hoodie letterpress keffiyeh cliche chicharrones viral ethical cronut. Health goth locavore distillery gastropub, heirloom 8-bit next level.</p>
+                                            <h3 class="speech-title">Crurent Work Order Age</h3>
+                                            <p> Excludes WO Type: <strong>ST</strong> 
+                                            <br>Excludes WO Status: <strong>CLOSE</strong>, <strong>ESTCANCEL</strong>, <strong>CAN</strong>, <strong>COMP</strong>
+                                            </p>
                                         </div>
 
                                     </div><!--//jumbotron-->
@@ -141,7 +142,7 @@
                                 
                             </section><!--//doc-section-->
 
-                            <section id="compliancePM" class="doc-section">
+                            <section id="p4-compliancePM" class="doc-section">
                                 <h2 class="section-title">Work Orders - Compliance PM</h2>
                                 <div class="section-block">
                                     <div class="jumbotron text-center">
@@ -158,9 +159,13 @@
                                         </div>
                                         
                                         <div class="speech-bubble">                    
-                                            <h3 class="speech-title"> Work Order P11</h3>
+                                            <h3 class="speech-title">Compliance Based PM</h3>
 
-                                            <p>Gochujang cronut af umami etsy fanny pack. Listicle paleo mumblecore, tumblr kombucha 90's activated charcoal waistcoat humblebrag tofu. </p>
+                                            <p>High Priority PM based on requirements set by EH&amp;S, TJC, Fire Marshall
+                                                <br>Include WO Priority: <strong>11</strong>
+                                                <br>Excludes WO Status: <strong>CLOSE</strong>, <strong>ESTCANCEL</strong>, <strong>CAN</strong>, <strong>COMP</strong>
+                                                <br>Excludes WO Type: <strong>ST</strong>
+                                            </p>
                                         </div>
 
                                     </div><!--//jumbotron-->
@@ -168,7 +173,7 @@
                                 
                             </section><!--//doc-section-->
 
-                            <section id="forecast" class="doc-section">
+                            <section id="p4-forecast" class="doc-section">
                                 <h2 class="section-title">Maintenance Forecast</h2>
                                 <div class="section-block">
                                     <div class="jumbotron text-center">
@@ -194,7 +199,37 @@
                                 
                             </section><!--//doc-section-->
 
+                            <!-- Scroll to Team Stats Section -->
+                            <section id="p4-team-stat" class="doc-section"></section>
 
+                            <section id="p4-sick-leave" class="doc-section">
+                                    <h2 class="section-title">Sick Leave</h2>
+    
+                                    <div class="section-block">
+                                        <div class="jumbotron text-center">
+                                            <!-- <h1>Assignments</h1> -->
+                                            <div class='tableauPlaceholder' style='width: 100%; height: 460px;'>
+                                                <object class='tableauViz' width='100%' height='460px' style='display:none;'>
+                                                        <param name='embed_code_version' value='2' />
+                                                        <param name='site_root' value='&#47;t&#47;FAS_FSC_Facilities' />
+                                                        <param name='name' value='P4CFY1014-SickLeave&#47;Dashboard1' />
+                                                        <param name='tabs' value='no' />
+                                                        <param name='toolbar' value='yes' />
+                                                        <param name='showAppBanner' value='false' />
+                                                        <param name='showShareOptions' value='true' />
+                                                </object>
+                                            </div>
+                                            
+                                            <div class="speech-bubble">                    
+                                                <h3 class="speech-title">Sick Leave by Labor Hours</h3>
+                                                <p>WO Number: CFY1014
+                                                <br>Data from Labor Transaction Table.</p>
+                                            </div>
+    
+                                        </div><!--//jumbotron-->
+                                    </div><!--//section-block-->
+                                    
+                            </section><!--//doc-section-->
 
 
                             <section id="credits" class="doc-section">
@@ -229,19 +264,26 @@
                         <nav id="doc-nav">
                             <ul id="doc-menu" class="nav doc-menu hidden-xs" data-spy="affix">
                                 <li>
-                                    <a class="scrollto" href="#workOrder">Work Order</a>
+                                    <a class="scrollto" href="#p4-workOrder">Work Order</a>
                                     <ul class="nav doc-sub-menu">
-                                        <li><a class="scrollto" href="#assignments">Assignments</a></li>
-                                        <li><a class="scrollto" href="#woStatus">Status</a></li>
-                                        <li><a class="scrollto" href="#woAge">Age</a></li>
-                                        <li><a class="scrollto" href="#compliancePM">Compliance</a></li>
-                                        <li><a class="scrollto" href="#forecast">Forecast</a></li>
+                                        <li><a class="scrollto" href="#p4-assignments">Assignments</a></li>
+                                        <li><a class="scrollto" href="#p4-wo30Status">30 Day Status</a></li>
+                                        <li><a class="scrollto" href="#p4-woAge">Age</a></li>
+                                        <li><a class="scrollto" href="#p4-compliancePM">Compliance</a></li>
+                                        <li><a class="scrollto" href="#p4-forecast">Forecast</a></li>
                                     </ul><!--//nav-->
-                                </li>                            
+                                </li>
+                                <li>
+                                    <a class="scrollto" href="#p4-team-stat">Team Stats</a>
+                                    <ul class="nav doc-sub-menu">
+                                        <li><a class="scrollto" href="#p4-sick-leave">Sick Leave</a></li>
+                                    </ul><!--//nav-->
+                                </li>                          
                                 <li><a class="scrollto" href="#credits">Quick Links</a></li>
                             </ul><!--//doc-menu-->
                         </nav>
                     </div><!--//doc-sidebar-->
+                    
                 </div><!--//doc-body-->              
             </div><!--//container-->
         </div><!--//doc-wrapper-->
@@ -297,6 +339,5 @@
     
 </body>
 </html> 
-
 
 
